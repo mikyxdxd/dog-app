@@ -1,12 +1,12 @@
 # dog-app
 
-** Initialization **
+**Initialization**
 
 `
 	npm install
 `
 
-** Run **
+**Run**
 
 `
 	npm start
