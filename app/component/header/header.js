@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-angular.module('app.header', []).directive('header', [function(){
-        
-        
-=======
 angular.module('app.header', []).directive('header', [()=>{
-
-
->>>>>>> master
+        
         require('./header.scss');
     return {
 
