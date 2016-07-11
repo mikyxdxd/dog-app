@@ -1,0 +1,62 @@
+#menupage{
+
+  position: fixed;
+  width: 0vw;
+  height: 100vh;
+  background: #c74747;
+  top: 0;
+  //transition: 1s;
+  right: 0;
+  display: flex;
+  #menu{
+
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+
+    .item{
+
+      font-size: 1.5em;
+      font-weight: 100;
+      margin-top: 1em;
+      white-space: nowrap;
+      opacity: 0;
+
+      .social{
+
+        vertical-align: top;
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+        padding: 0 2vw;
+        font-size: 0.6em;
+      }
+
+    }
+
+
+    .div{
+
+      margin-top: 3vh;
+
+      .divider{
+
+        height: 10vh;
+        width: 1px;
+        display: block;
+        margin: auto;
+      }
+    }
+
+    .text{
+
+      max-width: 45vw;
+      font-size: 1.3em;
+      color: gainsboro;
+      margin-top: 1em;
+      white-space:inherit !important;
+    }
+  }
+}
