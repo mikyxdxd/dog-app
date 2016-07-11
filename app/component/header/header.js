@@ -1,6 +1,5 @@
 angular.module('app.header', []).directive('header', [()=>{
-
-
+        
         require('./header.scss');
     return {
 

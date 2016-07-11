@@ -1,0 +1,73 @@
+#footer_main{
+
+  background: #e68a9a;
+  position: relative;
+  padding: 2% 5%;
+
+  #footer_left{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+
+
+    #footer_item{
+      .oneItem{
+      display: inline-block;
+      width: auto;
+      color: #667a81;
+      padding: .5em;
+      }
+    }
+
+    #social_icons{
+      .oneIcon{
+        width: 40px;
+        height: 35px;
+        background-size: 200px!important;
+        background-repeat: no-repeat!important;
+        display: inline-block;
+      }
+    }
+
+    #contact_info{
+      text-align: left;
+      display: inline-block;
+      color: #667a81;
+      padding-left: .3em;
+    }
+
+    #copy_right{
+      color: #667a81;
+      padding-left: .3em;
+    }
+  }
+
+  
+  
+
+  #footer_right{
+    padding: .5em;
+    display: inline-block;
+    vertical-align: top;
+
+    #download{
+      width: 100%;
+
+      a{
+        display: inline-block;
+        width: 150px;
+        margin-left: 0%;
+        height: 55px;
+        background-size: 200%;
+        background-repeat: no-repeat;;
+        background-position-x: 0;
+      }
+
+    }
+
+  }
+ 
+
+ 
+}
+
