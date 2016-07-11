@@ -10,9 +10,19 @@ angular.module('app.header', []).directive('header', [()=>{
 
             scope.barAnimation = function(){
 
-                $('#top_bar').animate({top:'-2 px'},500)
+                $('#top_bar').animate({top:'-3px'},300,'easeOutQuart');
+                $('#bottom_bar').animate({bottom:'-3px'},300,'easeOutQuart');
 
             }
+
+            scope.barAnimationDown = function(){
+
+
+                $('#top_bar').animate({top:'0px'},300,'easeOutQuart');
+                $('#bottom_bar').animate({bottom:'0px'},300,'easeOutQuart');
+
+            }
+
             scope.growMenuPage = function(){
 
                 $('#menupage').animate({'width':'100vw'},500,()=>{
