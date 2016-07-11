@@ -10,7 +10,6 @@
   "author": "Shi Liang Hong <shilianghong01@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "angular-formly": "^4.0.8",
     "angular-mocks": "^1.3.14",
     "api-check": "^6.0.10",
     "babel": "^4.7.4",
@@ -33,12 +32,10 @@
     "webpack-node-externals": "^1.2.0"
   },
   "dependencies": {
-    "angular": "^1.3.14",
+    "angular": "*",
     "angular-animate": "^1.4.8",
-    "angular-aria": "^1.3.14",
     "angular-bootstrap-npm": "^0.14.3",
     "angular-masonry": "^0.14.0",
-    "angular-material": "^0.8.3",
     "angular-messages": "^1.3.14",
     "angular-ui-bootstrap": "^1.0.3",
     "angular-ui-router": "^0.2.15",
