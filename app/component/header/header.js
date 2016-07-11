@@ -1,4 +1,4 @@
-angular.module('app.header', []).directive('header', [()=>{
+angular.module('app.header', []).directive('header', [function(){
         
         
         require('./header.scss');
