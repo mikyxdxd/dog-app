@@ -13,6 +13,7 @@
       display: inline-block;
       width: 32%;
       margin-left: 0.5%;
+      box-shadow: none;
 
       .card-title{
 
@@ -25,7 +26,7 @@
       }
     }
 
-    .card.small{
+    .card.sml{
 
       display: inline-block;
       width:69%;

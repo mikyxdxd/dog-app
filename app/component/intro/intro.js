@@ -1,6 +1,7 @@
 import './introduction/introduction'
+import './feature/feature'
 
-angular.module('app.intro',['app.introduction']).directive('intro',['$state','broadcastService','$window',function($state,broadcastService,$window){
+angular.module('app.intro',['app.introduction','app.feature']).directive('intro',['$state','broadcastService','$window',function($state,broadcastService,$window){
 
     require('./intro.scss');
     return {

@@ -11,5 +11,6 @@ import './component/broadcast/broadcastservice';
 const ngModule = angular.module('main_app',['ui.bootstrap',require('angular-animate'),'app.header','app.menupage','app.intro','ui.router','services.broadcast']);
 require ('./config/route')(ngModule);
 require ('./component/scroll/scroll')(ngModule);
+window.sr = require('scrollreveal')();
 angular.bootstrap(document,['main_app']);
 
